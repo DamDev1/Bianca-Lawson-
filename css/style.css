@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -13,6 +14,7 @@
 body {
   box-sizing: border-box;
   background: var(--mainColor);
+  scroll-behavior: smooth;
 }
 
 header .container {
@@ -262,6 +264,11 @@ header .container .row .socialmediaIcon a {
   font-size: 15px;
   color: #7A7A7A;
 }
+#about .container .row .right .serviceContent:nth-child(4) .icon span {
+  font-size: 25px;
+  margin-left: 10px;
+  color: white;
+}
 
 #portfolio .container {
   padding-top: 3rem;
@@ -490,10 +497,11 @@ header .container .row .socialmediaIcon a {
 }
 #contact .container .row .right form {
   margin-top: 3rem;
-  width: 80%;
+  width: 90%;
 }
 #contact .container .row .right form :where(input, textarea) {
   width: 100%;
+  color: white;
   padding: 20px;
   margin: 2px;
   background: #100028;
@@ -568,7 +576,7 @@ header .container .row .socialmediaIcon a {
 }
 
 footer .container {
-  padding: 4rem;
+  padding: 2rem;
 }
 footer .container .row .top {
   display: flex;
@@ -612,6 +620,12 @@ footer .container .row .bottom .footer_socialmediaIcon a {
   }
   #about .container .row .right .serviceContent {
     margin-top: 2rem;
+  }
+  #hero .container .details .subtitle {
+    color: white;
+  }
+  #hero .container .details h1 {
+    color: #F789C1;
   }
   #portfolio .container .row .tablinks {
     padding: 1rem;

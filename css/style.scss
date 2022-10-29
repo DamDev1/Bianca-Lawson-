@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 :root{
@@ -13,6 +14,7 @@
 body{
     box-sizing: border-box;
     background: var(--mainColor);
+    scroll-behavior: smooth;
 }
 
 header{
@@ -258,7 +260,6 @@ header{
                 grid-template-columns: auto auto;
                 .serviceContent{
                     margin: 20px;
-
                     .icon{
                         position: relative;
                         .box{
@@ -273,7 +274,7 @@ header{
                             -moz-transition: 0.5s;
                             -ms-transition: 0.5s;
                             -o-transition: 0.5s;
-}
+                        }
 
                         .box:hover{
                             transform: rotate(180deg);
@@ -302,7 +303,16 @@ header{
                         color: #7A7A7A;
                     }
 
+                }
 
+                .serviceContent:nth-child(4){
+                    .icon{
+                        span{
+                            font-size:25px;
+                            margin-left: 10px;
+                            color: white;
+                        }
+                    }
                 }
             }
         }
@@ -569,9 +579,10 @@ header{
 
                 form{
                     margin-top: 3rem;
-                    width: 80%;
+                    width: 90%;
                     :where(input, textarea){
                         width: 100%;
+                        color: white;
                         padding: 20px;
                         margin: 2px;
                         background: #100028;
@@ -662,7 +673,7 @@ header{
 
 footer{
     .container{
-        padding: 4rem;
+        padding: 2rem;
         .row{
             .top{
                 display: flex;
@@ -728,6 +739,19 @@ footer{
                         margin-top: 2rem;
                         
                     }
+                }
+            }
+        }
+    }
+
+    #hero{
+        .container{
+            .details{
+                .subtitle{
+                    color: white;
+                }
+                h1{
+                    color: #F789C1;
                 }
             }
         }
