@@ -440,10 +440,10 @@ header .container .row .socialmediaIcon a {
   content: "";
   width: 3.5rem;
   height: 3.5rem;
-  background: url("../asset/logo/WhatsApp Image 2022-10-26 at 3.56.51 PM.jpeg");
+  background: url("../asset/WhatsApp Image 2023-01-13 at 9.27.33 AM.jpeg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   position: absolute;
   top: -1px;
   left: 50%;
@@ -457,6 +457,46 @@ header .container .row .socialmediaIcon a {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+}
+#what_they_say .container .row .content .detail:nth-child(2)::after {
+  content: "";
+  width: 3.5rem;
+  height: 3.5rem;
+  background: url("../asset/WhatsApp Image 2023-01-13 at 9.33.14 AM.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+#what_they_say .container .row .content .detail:nth-child(3)::after {
+  content: "";
+  width: 3.5rem;
+  height: 3.5rem;
+  background: url("../asset/WhatsApp Image 2023-01-13 at 9.37.54 AM.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+#what_they_say .container .row .content .detail:nth-child(4)::after {
+  content: "";
+  width: 3.5rem;
+  height: 3.5rem;
+  background: url("../asset/WhatsApp Image 2023-01-13 at 10.18.27 AM.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+#what_they_say .container .row .content .detail:nth-child(5)::after {
+  content: "";
+  width: 3.5rem;
+  height: 3.5rem;
+  background: url("..//asset/WhatsApp Image 2023-01-13 at 10.21.25 AM.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
 }
 #what_they_say .container .row .content .detail:nth-child(4),
 #what_they_say .container .row .content .detail:nth-child(5) {
